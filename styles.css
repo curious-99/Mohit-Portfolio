@@ -8,6 +8,9 @@ body{
     color: rgb(5, 51, 94);
     font-family: 'Montserrat', sans-serif;
 }
+hr{
+    margin: 2rem 0rem;
+}
 
 /* @containers */
 .container{
