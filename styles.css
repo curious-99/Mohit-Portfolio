@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
 
 :root{
-    --primary-color: red;
+    --primary-color: #7C3AED;
     /* --primary-color: #7C3AED; */
 }
 body{
@@ -24,6 +24,14 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.primary-link{
-    color:var(--primary-color);
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+/* look into BEM naming convention for CSS. */
