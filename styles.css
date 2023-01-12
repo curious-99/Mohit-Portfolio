@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
 
+:root{
+    --primary-color: red;
+    /* --primary-color: #7C3AED; */
+}
 body{
     color: rgb(5, 51, 94);
     font-family: 'Montserrat', sans-serif;
@@ -7,8 +11,7 @@ body{
 
 /* @containers */
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 
 .container-center{
@@ -17,3 +20,10 @@ body{
 }
 
 /* @links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    color:var(--primary-color);
+}
