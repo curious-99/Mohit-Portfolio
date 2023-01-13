@@ -79,6 +79,7 @@ hr{
 .hero{
     padding: 2rem;
     font-weight: bold;
+    padding-top: 5rem;
 }
 .hero .hero-img{
     max-width: 300px;
@@ -110,6 +111,10 @@ footer{
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link{
     color: white;
