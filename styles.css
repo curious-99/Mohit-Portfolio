@@ -4,6 +4,7 @@
     --primary-color: #7C3AED;
     /* --primary-color: #7C3AED; */
     --dark-grey: #6B7280;
+    --off-white: #F3F4F6;
 }
 body{
     color: rgb(5, 51, 94);
@@ -85,4 +86,16 @@ hr{
 .hero .hero-heading{
     color: var(--dark-grey);
     font-weight: 900;
+}
+
+/* section */
+.section{
+    padding: 1rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+    border-bottom-left-radius: 1rem;
 }
