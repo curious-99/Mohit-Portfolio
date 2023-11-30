@@ -1,0 +1,16 @@
+/* Add this to your App.css file */
+.card {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer {
+  margin-top: 15px;
+}
